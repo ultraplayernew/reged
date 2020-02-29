@@ -1,0 +1,57 @@
+object FrameEditUnicode32: TFrameEditUnicode32
+  Left = 0
+  Height = 49
+  Top = 0
+  Width = 387
+  ClientHeight = 49
+  ClientWidth = 387
+  TabOrder = 0
+  DesignLeft = 280
+  DesignTop = 233
+  object LText: TLabel
+    Left = 8
+    Height = 15
+    Top = 24
+    Width = 50
+    Caption = 'Unicode: '
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object L12: TLabel
+    Left = 88
+    Height = 15
+    Top = 3
+    Width = 18
+    Caption = 'L12'
+    ParentColor = False
+  end
+  object L34: TLabel
+    Left = 236
+    Height = 15
+    Top = 3
+    Width = 18
+    Caption = 'L34'
+    ParentColor = False
+  end
+  object Ed12: TEdit
+    Left = 88
+    Height = 23
+    Top = 21
+    Width = 140
+    OnChange = Ed12Change
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object Ed34: TEdit
+    Left = 236
+    Height = 23
+    Top = 21
+    Width = 140
+    OnChange = Ed34Change
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+end

@@ -1,0 +1,93 @@
+object FrameEditANSI32: TFrameEditANSI32
+  Left = 0
+  Height = 49
+  Top = 0
+  Width = 387
+  ClientHeight = 49
+  ClientWidth = 387
+  TabOrder = 0
+  DesignLeft = 318
+  DesignTop = 245
+  object LText: TLabel
+    Left = 8
+    Height = 15
+    Top = 24
+    Width = 32
+    Caption = 'ANSI: '
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+  end
+  object L1: TLabel
+    Left = 88
+    Height = 15
+    Top = 3
+    Width = 12
+    Caption = 'L1'
+    ParentColor = False
+  end
+  object Ed4: TEdit
+    Left = 310
+    Height = 23
+    Top = 21
+    Width = 66
+    OnChange = Ed4Change
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+  end
+  object Ed3: TEdit
+    Left = 236
+    Height = 23
+    Top = 21
+    Width = 66
+    OnChange = Ed3Change
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+  end
+  object Ed1: TEdit
+    Left = 88
+    Height = 23
+    Top = 21
+    Width = 66
+    OnChange = Ed1Change
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object Ed2: TEdit
+    Left = 162
+    Height = 23
+    Top = 21
+    Width = 66
+    OnChange = Ed2Change
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+  object L2: TLabel
+    Left = 162
+    Height = 15
+    Top = 3
+    Width = 12
+    Caption = 'L2'
+    ParentColor = False
+  end
+  object L3: TLabel
+    Left = 236
+    Height = 15
+    Top = 3
+    Width = 12
+    Caption = 'L3'
+    ParentColor = False
+  end
+  object L4: TLabel
+    Left = 310
+    Height = 15
+    Top = 3
+    Width = 12
+    Caption = 'L4'
+    ParentColor = False
+  end
+end

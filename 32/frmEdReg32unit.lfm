@@ -1,0 +1,206 @@
+object frmEdReg32: TfrmEdReg32
+  Left = 361
+  Height = 496
+  Top = 225
+  Width = 396
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = 'frmEdReg32'
+  ClientHeight = 496
+  ClientWidth = 396
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  Position = poOwnerFormCenter
+  LCLVersion = '2.0.4.0'
+  object panelMainLabels: TPanel
+    Left = 0
+    Height = 21
+    Top = 0
+    Width = 396
+    Align = alTop
+    BevelOuter = bvNone
+    ClientHeight = 21
+    ClientWidth = 396
+    TabOrder = 0
+    object panelE: TPanel
+      Left = 88
+      Height = 21
+      Top = 0
+      Width = 90
+      BevelOuter = bvNone
+      Caption = 'EAX'
+      TabOrder = 0
+    end
+    object panelX: TPanel
+      Left = 186
+      Height = 21
+      Top = 0
+      Width = 56
+      BevelOuter = bvNone
+      Caption = 'AX'
+      TabOrder = 1
+    end
+    object panelH: TPanel
+      Left = 250
+      Height = 21
+      Top = 0
+      Width = 56
+      BevelOuter = bvNone
+      Caption = 'AH'
+      TabOrder = 2
+    end
+    object panelL: TPanel
+      Left = 314
+      Height = 21
+      Top = 0
+      Width = 56
+      BevelOuter = bvNone
+      Caption = 'AL'
+      TabOrder = 3
+    end
+  end
+  object panelButtons: TPanel
+    Left = 0
+    Height = 50
+    Top = 446
+    Width = 396
+    Align = alBottom
+    BevelOuter = bvNone
+    ClientHeight = 50
+    ClientWidth = 396
+    TabOrder = 8
+    object bOK: TButton
+      Left = 219
+      Height = 25
+      Top = 12
+      Width = 75
+      Caption = 'OK'
+      Default = True
+      OnClick = bOKClick
+      TabOrder = 0
+    end
+    object bCancel: TButton
+      Left = 299
+      Height = 25
+      Top = 12
+      Width = 75
+      Cancel = True
+      Caption = 'Cancel'
+      OnClick = bCancelClick
+      TabOrder = 1
+    end
+    object bOptions: TButton
+      Left = 16
+      Height = 25
+      Top = 12
+      Width = 75
+      Caption = 'Options'
+      OnClick = bOptionsClick
+      TabOrder = 2
+    end
+  end
+  object LError: TLabel
+    Left = 0
+    Height = 1
+    Top = 445
+    Width = 396
+    Align = alBottom
+    Color = clRed
+    ParentColor = False
+    ParentShowHint = False
+    ShowHint = True
+    Transparent = False
+    Visible = False
+  end
+  inline frHex32: TframeEditRegisters32
+    Top = 21
+    Width = 396
+    Align = alTop
+    ClientWidth = 396
+    TabOrder = 1
+  end
+  inline frSigned32: TframeEditRegisters32
+    Top = 70
+    Width = 396
+    Align = alTop
+    ClientWidth = 396
+    TabOrder = 2
+    inherited LText: TLabel
+      Width = 42
+      Caption = 'Signed: '
+    end
+  end
+  inline frUnsigned32: TframeEditRegisters32
+    Top = 119
+    Width = 396
+    Align = alTop
+    ClientWidth = 396
+    TabOrder = 3
+    inherited LText: TLabel
+      Width = 56
+      Caption = 'Unsigned: '
+    end
+  end
+  inline frFloats32: TframeEditRegisters32
+    Top = 168
+    Width = 396
+    Align = alTop
+    ClientWidth = 396
+    TabOrder = 4
+    inherited LText: TLabel
+      Width = 37
+      Caption = 'Floats: '
+    end
+  end
+  inline frSignedBE32: TframeEditRegisters32
+    Top = 217
+    Width = 396
+    Align = alTop
+    ClientWidth = 396
+    TabOrder = 5
+    inherited LText: TLabel
+      Width = 58
+      Caption = 'Signed BE: '
+    end
+  end
+  inline frFloatsBE32: TframeEditRegisters32
+    Top = 266
+    Width = 396
+    Align = alTop
+    ClientWidth = 396
+    TabOrder = 6
+    inherited LText: TLabel
+      Width = 53
+      Caption = 'Floats BE: '
+    end
+  end
+  inline frANSI32: TFrameEditANSI32
+    Top = 315
+    Width = 396
+    Align = alTop
+    ClientWidth = 396
+    TabOrder = 7
+  end
+  inline frUnicode32: TFrameEditUnicode32
+    Top = 364
+    Width = 396
+    Align = alTop
+    ClientWidth = 396
+    TabOrder = 9
+  end
+  object ActionList1: TActionList
+    left = 184
+    top = 440
+    object acRevertInitialValue: TAction
+      Caption = 'Revert Initial Value'
+      OnExecute = acRevertInitialValueExecute
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    left = 120
+    top = 440
+    object MenuItem1: TMenuItem
+      Action = acRevertInitialValue
+    end
+  end
+end

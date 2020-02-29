@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="12">
+      <Unit0>
+        <Filename Value="Demo32Regs.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="-1"/>
+        <CursorPos X="-1" Y="-1"/>
+        <UsageCount Value="38"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmEdReg32"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="46"/>
+        <CursorPos X="24" Y="72"/>
+        <UsageCount Value="38"/>
+        <Bookmarks Count="2">
+          <Item0 X="3" Y="577" ID="2"/>
+          <Item1 X="19" Y="773" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="frameEdReg32unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frameEditRegisters32"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="73"/>
+        <CursorPos X="19" Y="24"/>
+        <UsageCount Value="38"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="frameansi32unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameEditANSI32"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="frameANSI32Unit"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="48"/>
+        <CursorPos X="24" Y="68"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="frameunicode32unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FrameEditUnicode32"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="frameUnicode32unit"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="56"/>
+        <CursorPos X="27" Y="62"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\frameeditregistersunit.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\frameeditregistersunit.pas"/>
+        <ComponentName Value="frameEditRegisters"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <UnitName Value="frameEditRegistersUnit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="199"/>
+        <CursorPos X="3" Y="201"/>
+        <UsageCount Value="9"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\64-bit register\frameEdReg64unit.pas"/>
+        <ComponentName Value="frameEditRegisters"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Frame"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="163"/>
+        <CursorPos Y="186"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\64-bit register\ValueConversionRoutine.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="46"/>
+        <CursorPos X="32" Y="52"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="ValueConversionRoutine.inc"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\sysutils\sysinth.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="44"/>
+        <CursorPos X="25" Y="57"/>
+        <UsageCount Value="10"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="frameANSI32unit__.pas"/>
+        <ComponentName Value="FrameEditANSI"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="frameANSI32unit"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="623" Column="21" TopLine="599"/>
+      </Position1>
+      <Position2>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="784" Column="8" TopLine="763"/>
+      </Position2>
+      <Position3>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="782" TopLine="768"/>
+      </Position3>
+      <Position4>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="57" TopLine="31"/>
+      </Position4>
+      <Position5>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="784" Column="11" TopLine="762"/>
+      </Position5>
+      <Position6>
+        <Filename Value="frameEdReg32unit.pas"/>
+        <Caret Line="27" Column="18" TopLine="11"/>
+      </Position6>
+      <Position7>
+        <Filename Value="frameEdReg32unit.pas"/>
+        <Caret Line="28" Column="28" TopLine="11"/>
+      </Position7>
+      <Position8>
+        <Filename Value="frameEdReg32unit.pas"/>
+        <Caret Line="47" Column="39" TopLine="24"/>
+      </Position8>
+      <Position9>
+        <Filename Value="frameEdReg32unit.pas"/>
+        <Caret Line="46" Column="30" TopLine="27"/>
+      </Position9>
+      <Position10>
+        <Filename Value="frameEdReg32unit.pas"/>
+        <Caret Line="96" Column="38" TopLine="74"/>
+      </Position10>
+      <Position11>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="784" Column="44" TopLine="762"/>
+      </Position11>
+      <Position12>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="103" Column="3" TopLine="101"/>
+      </Position12>
+      <Position13>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="258" Column="45" TopLine="250"/>
+      </Position13>
+      <Position14>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="61" Column="78" TopLine="47"/>
+      </Position14>
+      <Position15>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="32" Column="35" TopLine="19"/>
+      </Position15>
+      <Position16>
+        <Filename Value="frameEdReg32unit.pas"/>
+        <Caret Line="29" Column="32" TopLine="16"/>
+      </Position16>
+      <Position17>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="82" Column="35" TopLine="68"/>
+      </Position17>
+      <Position18>
+        <Filename Value="frameansi32unit.pas"/>
+        <Caret Line="315" Column="31" TopLine="307"/>
+      </Position18>
+      <Position19>
+        <Filename Value="frameansi32unit.pas"/>
+        <Caret Line="21" Column="24"/>
+      </Position19>
+      <Position20>
+        <Filename Value="frameunicode32unit.pas"/>
+        <Caret Line="21" Column="17" TopLine="4"/>
+      </Position20>
+      <Position21>
+        <Filename Value="frameunicode32unit.pas"/>
+        <Caret Line="22" Column="27" TopLine="4"/>
+      </Position21>
+      <Position22>
+        <Filename Value="frameansi32unit.pas"/>
+        <Caret Line="40" Column="26" TopLine="22"/>
+      </Position22>
+      <Position23>
+        <Filename Value="frameansi32unit.pas"/>
+        <Caret Line="41" Column="35" TopLine="25"/>
+      </Position23>
+      <Position24>
+        <Filename Value="frameansi32unit.pas"/>
+        <Caret Line="68" Column="34" TopLine="48"/>
+      </Position24>
+      <Position25>
+        <Filename Value="frameunicode32unit.pas"/>
+        <Caret Line="35" Column="29" TopLine="20"/>
+      </Position25>
+      <Position26>
+        <Filename Value="frameunicode32unit.pas"/>
+        <Caret Line="36" Column="38" TopLine="21"/>
+      </Position26>
+      <Position27>
+        <Filename Value="frameunicode32unit.pas"/>
+        <Caret Line="62" Column="37" TopLine="49"/>
+      </Position27>
+      <Position28>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="770" Column="36" TopLine="762"/>
+      </Position28>
+      <Position29>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="68" Column="33" TopLine="46"/>
+      </Position29>
+      <Position30>
+        <Filename Value="frmEdReg32unit.pas"/>
+        <Caret Line="69" Column="36" TopLine="46"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

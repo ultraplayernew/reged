@@ -1,0 +1,91 @@
+object frameEditRegisters32: TframeEditRegisters32
+  Left = 0
+  Height = 49
+  Top = 0
+  Width = 387
+  ClientHeight = 49
+  ClientWidth = 387
+  TabOrder = 0
+  DesignLeft = 566
+  DesignTop = 277
+  object LText: TLabel
+    Left = 8
+    Height = 15
+    Top = 24
+    Width = 26
+    Caption = 'Hex: '
+    ParentColor = False
+  end
+  object EdE: TEdit
+    Left = 88
+    Height = 23
+    Top = 21
+    Width = 96
+    OnChange = EdEChange
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 0
+  end
+  object EdX: TEdit
+    Left = 192
+    Height = 23
+    Top = 21
+    Width = 56
+    OnChange = EdXChange
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 1
+  end
+  object EdH: TEdit
+    Left = 256
+    Height = 23
+    Top = 21
+    Width = 56
+    OnChange = EdHChange
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 2
+  end
+  object EdL: TEdit
+    Left = 320
+    Height = 23
+    Top = 21
+    Width = 56
+    OnChange = EdLChange
+    ParentShowHint = False
+    ShowHint = True
+    TabOrder = 3
+  end
+  object LE: TLabel
+    Left = 88
+    Height = 15
+    Top = 3
+    Width = 12
+    Caption = 'LE'
+    ParentColor = False
+  end
+  object LX: TLabel
+    Left = 192
+    Height = 15
+    Top = 3
+    Width = 13
+    Caption = 'LX'
+    ParentColor = False
+  end
+  object LH: TLabel
+    Left = 256
+    Height = 15
+    Top = 3
+    Width = 15
+    Caption = 'LH'
+    ParentColor = False
+  end
+  object LL: TLabel
+    Left = 320
+    Height = 15
+    Top = 3
+    Width = 12
+    Caption = 'LL'
+    ParentColor = False
+  end
+end
